@@ -24,4 +24,11 @@ public class Location {
         return y;
     }
 
+    @Override
+    public String toString() {
+        return "Location{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
