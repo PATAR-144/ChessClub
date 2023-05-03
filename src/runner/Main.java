@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Player whitePlayer = new Player(Color.WHITE);
         Player blackPlayer = new Player(Color.BLACK);
-        LocationMatrix locationMatrix = new LocationMatrix();
+        //LocationMatrix locationMatrix = new LocationMatrix();
 
 
     }
