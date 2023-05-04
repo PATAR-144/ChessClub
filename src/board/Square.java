@@ -1,6 +1,7 @@
 package board;
 
 import game.Location;
+import pieces.Piece;
 
 /**
  * class for the board squares
@@ -8,6 +9,7 @@ import game.Location;
 public class Square {
     private Color COLOR;
     private Location location;
+    private Piece piece;
 
     public Square(Color COLOR, Location location) {
         this.COLOR = COLOR;

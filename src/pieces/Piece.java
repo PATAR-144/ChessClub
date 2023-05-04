@@ -20,7 +20,6 @@ public abstract class Piece {
     }
 
 
-
     //getters, setters, and toString for pieces
     public Type getTYPE() {
         return TYPE;

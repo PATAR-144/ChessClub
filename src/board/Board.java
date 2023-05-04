@@ -1,6 +1,8 @@
 package board;
 import game.Location;
 import game.LocationMatrix;
+import pieces.Pawn;
+import pieces.Piece;
 
 import java.util.Arrays;
 
@@ -8,6 +10,7 @@ import java.util.Arrays;
 public class Board {
     private Square[][] squareMatrix = new Square[8][8];
     private LocationMatrix locationMatrix = new LocationMatrix();
+    private Piece piece;
 
     public Board(){
         Color currentColor;
@@ -21,6 +24,7 @@ public class Board {
                 squareMatrix[i][j] = new Square(currentColor, locationMatrix.getLocationMatrix(i, j));
             }
         }
+
     }
 
     public Square getSquare(int i, int j){
