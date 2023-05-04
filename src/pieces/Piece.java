@@ -8,7 +8,7 @@ import game.Location;
 
 public abstract class Piece {
     private Type TYPE;
-    private Color COLOR;
+    private final Color COLOR;
     private Location location;
 
 
@@ -31,10 +31,6 @@ public abstract class Piece {
 
     public Color getCOLOR() {
         return COLOR;
-    }
-
-    public void setCOLOR(Color COLOR) {
-        this.COLOR = COLOR;
     }
 
     public Location getLocation() {
