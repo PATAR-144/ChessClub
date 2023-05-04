@@ -9,11 +9,12 @@ import pieces.Piece;
 public class Square {
     private final Color COLOR;
     private final Location location;
-    private Piece piece;
+    private boolean isOccupied;
 
     public Square(Color COLOR, Location location) {
         this.COLOR = COLOR;
         this.location = location;
+        this.isOccupied = false;
     }
 
     public Color getCOLOR() {
@@ -22,6 +23,14 @@ public class Square {
 
     public Location getLocation(){
         return location;
+    }
+
+    public boolean isOccupied() {
+        return isOccupied;
+    }
+
+    public void setOccupied(boolean occupied) {
+        isOccupied = occupied;
     }
 
     @Override

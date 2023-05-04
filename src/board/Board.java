@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class Board {
     private final Square[][] squareMatrix = new Square[8][8];
     private final LocationMatrix locationMatrix = new LocationMatrix();
-    private Piece piece;
 
     public Board(){
         Color currentColor;
