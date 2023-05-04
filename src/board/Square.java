@@ -22,5 +22,12 @@ public class Square {
         return location;
     }
 
+    @Override
+    public String toString() {
+        return "Square{" +
+                "COLOR=" + COLOR +
+                ", location=" + location +
+                '}';
+    }
 
 }
