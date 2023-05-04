@@ -4,8 +4,8 @@ package game;
  * Location of x/y grid to relate squares and pieces
  */
 public class Location {
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
 
     //constructor for locations

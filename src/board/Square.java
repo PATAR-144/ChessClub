@@ -7,8 +7,8 @@ import pieces.Piece;
  * class for the board squares
  */
 public class Square {
-    private Color COLOR;
-    private Location location;
+    private final Color COLOR;
+    private final Location location;
     private Piece piece;
 
     public Square(Color COLOR, Location location) {

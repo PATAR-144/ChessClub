@@ -4,9 +4,9 @@ import board.Board;
 import pieces.Color;
 
 public class Game {
-    private Player whitePlayer;
-    private Player blackPlayer;
-    private Board board;
+    private final Player whitePlayer;
+    private final Player blackPlayer;
+    private final Board board;
 
     public Game(){
         this.whitePlayer = new Player(Color.WHITE);
